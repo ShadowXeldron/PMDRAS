@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="NickitTalk" xml:space="preserve">
+    <value>Oh, so another one crosses the Desert of Departure. Well, what brings you to Roguetown, anyway? If you've come for gold, tough luck. It's all gone. 
+
+This place is no more than a ghost town and there's no good reason to stay here. Well, unless you're into tunnels and stuff - there's an exploration team planning to go into the old caverns in search of... stuff. Now, if you were to ask me, I'd say there's no point in wasting your time down there but you might get a kick out of it. Might.</value>
+    <comment>Dialogue spouted by Nickit</comment>
+  </data>
+  <data name="HitmonleeTalk" xml:space="preserve">
+    <value>Hey, I don't recognise you. Not from around these parts, eh? Well, neither are we! You can call us Team Hitmon, and we're the premier fighting trio this side of Sky Tower!
+Y'see, we came aaaaall the way over from the far-off Fighting Kingdom because we heard there's supposed to be a battle arena here. We were told all about the big battles against only the toughest Pokemon around, so obviously we had to come here.
+Unfortunately, they haven't finished setting it up! Well, I guess we could train in the nearby Desert of Departure while we wait... but the experience isn't all that rewarding. I hope they hurry up with that arena - this peace is starting to drive me mad!</value>
+    <comment>Hitmonlee talking about the Arena</comment>
+  </data>
+  <data name="HitmonchanTalk" xml:space="preserve">
+    <value>I am Hitmonchan, Team Hitmon's close-quaters specialist! These gloves aren't for show - I can pack a serious punch! When the arena's ready, there's no way the other teams will stand a chance against us! Wa ha ha ha ha!</value>
+    <comment>Hitmonchan boasting</comment>
+  </data>
+  <data name="HitmontopTalk" xml:space="preserve">
+    <value>This place is a complete dump. Why are they building a battle arena in such a backwater town? We should've gone somewhere more glamorous!
+Okay, I guess there's *ONE* thing this place has going for it. There's a series of tunnels running beneath this poor excuse for a settlement that allegedly leads to the mythical kingdom of Yendor. Thing is, the place is dotted with Mystery Dungeons so nobody's ever gotten very far. 
+But we aren't some second-rate explorers, so you won't find us poking around in one of those places! The Desert of Departure was boring enough as is - the field of battle is where we truly belong!</value>
+    <comment>Hitmontop talking about the Yendorian Road</comment>
+  </data>
+  <data name="EspeonTalk" xml:space="preserve">
+    <value>My name is Espeon. I serve as the Rogue Exploration Team's psychokinetic navigator, so to speak.
+I've always felt that coming here tp Roguetown to explore the Yendorian Road is my life's true calling and I'm hoping to find some answers about the ancient land of beneath our feet.
+Didn't you travel here on foot from the Desert of Departure? You might actually have a penchant for dungeoneering. 
+If that sounds like your kind of thing, you shpould go and see our leader, Flygon. He'll fill you in on the details.</value>
+    <comment>Espeon being mysterious</comment>
+  </data>
+  <data name="FlygonTalk" xml:space="preserve">
+    <value>I'm Flygon, adventure archaeologist extraordinaire! We've recently started a full-scale exploration of the tunnels of Roguetown, and we've got our eyes on the prize!
+You see, deep beneath our feet is said to be a legendary place known as Yendor.  It was originally the heart of a great empire that existed thousands of years ago, but one day it just vanished without a trace, leaving not even as much as a crater. According to the myths, the reason why this happened was because they were struck down by forces from high above as a punishment for their avarice.
+Anyway, the story also claims that the kindom was actually sent to the very bottom of the planet in a place where the sun will never reach.  And here's the kicker - the treasure of Yendor is supposed to still be there!
+So you may be wondering: Why Roguetown? Well, it's pretty simple: There is a massive tunnel system located just below us. Located between most of the tunnel nodes is a series of Mystery Dungeons, which also lines up with something mentioned in the myth.
+Therefore, I can deduce that Yendor is literally hiding right beneath our noses.</value>
+    <comment>Flygon being a Flygon</comment>
+  </data>
+  <data name="ExcadrillTalk" xml:space="preserve">
+    <value>Excadrill's my name, and digging's my game! I'm one of Flygon's digging buddies and am in charge of charting tunnels throught to Yendor.\nTunneling's my favourite thing in the world, so I obviously jumped at the call to excavate the Yendorian Road in search of the ancient kingdom!\nOnly problem is, the Yendorian Road's full of those ever-changing Mystery Dungeons so I keep getting lost! \nIt'd be so much easier to discover Yendor if some more explorers could come and help us clear those dungeons out...</value>
+    <comment>Excadrill being an Excadrill</comment>
+  </data>
+  <data name="Arena_Unfinished" xml:space="preserve">
+    <value>There's a sign here...
+
+Big battles await! Roguetown arena coming soon!
+
+Guess it isn't ready yet...</value>
+    <comment>Message that appears when you try to enter the arena before it has been constructed</comment>
+  </data>
+  <data name="Shop_Intro" xml:space="preserve">
+    <value>Buy somethin' will ya!</value>
+    <comment>Shopkeeper dialogue</comment>
+  </data>
+  <data name="Shop_Intro_Return" xml:space="preserve">
+    <value>What else?</value>
+    <comment>Whatever this is for</comment>
+  </data>
+  <data name="Shop_Buy" xml:space="preserve">
+    <value>Buy it or I'll use Memento</value>
+    <comment>This is an SMT meme</comment>
+  </data>
+  <data name="Shop_Option_Buy" xml:space="preserve">
+    <value>Buy</value>
+    <comment>Buy item</comment>
+  </data>
+  <data name="Shop_Option_Sell" xml:space="preserve">
+    <value>Sell</value>
+    <comment>Sell item</comment>
+  </data>
+  <data name="Shop_Buy_Empty" xml:space="preserve">
+    <value>You bought out my entire shop.</value>
+    <comment>If you bought all the items</comment>
+  </data>
+  <data name="Shop_Bag_Empty" xml:space="preserve">
+    <value>You have no items you dingbutt</value>
+    <comment>Your bag is NOT full</comment>
+  </data>
+  <data name="Shop_Sell" xml:space="preserve">
+    <value>Gimmie your stuff</value>
+    <comment>Selling things</comment>
+  </data>
+  <data name="Shop_Info_001" xml:space="preserve">
+    <value>I am a shop</value>
+    <comment>I am a shop</comment>
+  </data>
+  <data name="Shop_Info_002" xml:space="preserve">
+    <value>I sell things</value>
+    <comment>I sell things</comment>
+  </data>
+  <data name="Shop_Info_003" xml:space="preserve">
+    <value>Rope, lamp oil, BOMBS!? It's yours my friend, as long as you have enough Rupees.</value>
+    <comment>Rope, Lamp Oil, BOMBS!</comment>
+  </data>
+  <data name="Shop_Info_004" xml:space="preserve">
+    <value>I like money</value>
+    <comment>I LIKE MONEY</comment>
+  </data>
+  <data name="Shop_Info_005" xml:space="preserve">
+    <value>Give me money or I will make you die</value>
+    <comment>Say something</comment>
+  </data>
+  <data name="Shop_Goodbye" xml:space="preserve">
+    <value>get lost</value>
+    <comment>Bog off</comment>
+  </data>
+  <data name="Shop_Bag_Full" xml:space="preserve">
+    <value>Your bag is full! Pokemon Go should not be played while driving.</value>
+    <comment>Your bag is full</comment>
+  </data>
+  <data name="Shop_Buy_No_Money" xml:space="preserve">
+    <value>Sorry Link, I can't GIVE credit! Come back when you're a little, MMMMM, richer!</value>
+    <comment>You are skint</comment>
+  </data>
+  <data name="Shop_Buy_One" xml:space="preserve">
+    <value>Buy that?</value>
+    <comment>Buy a thing</comment>
+  </data>
+  <data name="Shop_Buy_Multi" xml:space="preserve">
+    <value>Buy all that?</value>
+    <comment>Buy lots</comment>
+  </data>
+  <data name="Shop_Buy_Complete" xml:space="preserve">
+    <value>I like money</value>
+    <comment>You paid up</comment>
+  </data>
+  <data name="Shop_Sell_One" xml:space="preserve">
+    <value>Sell that?</value>
+    <comment>Sell one thing</comment>
+  </data>
+  <data name="Shop_Sell_Multi" xml:space="preserve">
+    <value>Sell those?</value>
+    <comment>Sell multiple things</comment>
+  </data>
+  <data name="Shop_Sell_Complete" xml:space="preserve">
+    <value>Yeah, I got it</value>
+    <comment>Yeah, I got it</comment>
+  </data>
+</root>

@@ -1,0 +1,421 @@
+﻿{
+"Version": "0.8.2.0",
+"Object": {
+"$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[RogueEssence.Data.EntrySummary, RogueEssence]], System.Private.CoreLib",
+"undergrowths": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 75,
+"Level": 10,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 2,
+"CountedFloors": 5,
+"Rogue": 1,
+"Grounds": [],
+"Maps": [
+[
+0,
+1,
+2,
+3,
+4
+]
+],
+"Name": {
+"DefaultText": "Undergrowths",
+"LocalTexts": {
+"de": "Verbleichender Pfad",
+"es": "Sendero Desvanecido ",
+"it": "Sentiero Sbiadito",
+"zh-hans": "消逝山道"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"desert_of_departure": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 75,
+"Level": 5,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 2,
+"CountedFloors": 4,
+"Rogue": 1,
+"Grounds": [],
+"Maps": [
+[
+0,
+1,
+2,
+3
+]
+],
+"Name": {
+"DefaultText": "Desert of Departure",
+"LocalTexts": {
+"de": "Tropischer Pfad",
+"es": "Paso Tropical",
+"it": "Passaggio Tropicale",
+"zh-hans": "热带小径"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"spore_caves": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 100,
+"Level": 17,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 2,
+"CountedFloors": 7,
+"Rogue": 1,
+"Grounds": [],
+"Maps": [
+[
+0,
+1,
+2,
+3,
+4,
+5,
+6
+]
+],
+"Name": {
+"DefaultText": "Spore Caves",
+"LocalTexts": {
+"de": "Verbleichender Pfad",
+"es": "Sendero Desvanecido ",
+"it": "Sentiero Sbiadito",
+"zh-hans": "消逝山道"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"sandy_tombs": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 100,
+"Level": 20,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 2,
+"CountedFloors": 6,
+"Rogue": 1,
+"Grounds": [],
+"Maps": [
+[
+0,
+1,
+2,
+3,
+4,
+5
+]
+],
+"Name": {
+"DefaultText": "Sandy Tombs",
+"LocalTexts": {
+"de": "Verbleichender Pfad",
+"es": "Sendero Desvanecido ",
+"it": "Sentiero Sbiadito",
+"zh-hans": "消逝山道"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"cobblestone_cave": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 75,
+"Level": 15,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 2,
+"CountedFloors": 9,
+"Rogue": 1,
+"Grounds": [
+"cobblestone_cave_boss"
+],
+"Maps": [
+[
+0,
+1,
+2,
+3,
+4,
+5,
+6,
+7
+],
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Cobblestone Cave",
+"LocalTexts": {
+"de": "Verbleichender Pfad",
+"es": "Sendero Desvanecido ",
+"it": "Sentiero Sbiadito",
+"zh-hans": "消逝山道"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"groundwater_grotto": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 100,
+"Level": 17,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 2,
+"CountedFloors": 7,
+"Rogue": 1,
+"Grounds": [],
+"Maps": [
+[
+0,
+1,
+2,
+3,
+4,
+5,
+6
+]
+],
+"Name": {
+"DefaultText": "Groundwater Grotto",
+"LocalTexts": {
+"de": "Verbleichender Pfad",
+"es": "Sendero Desvanecido ",
+"it": "Sentiero Sbiadito",
+"zh-hans": "消逝山道"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"secret_gold_gulch": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 100,
+"Level": 5,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 2,
+"CountedFloors": 10,
+"Rogue": 1,
+"Grounds": [],
+"Maps": [
+[
+0,
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9
+]
+],
+"Name": {
+"DefaultText": "Secret Gold Gulch",
+"LocalTexts": {
+"de": "Tropischer Pfad",
+"es": "Paso Tropical",
+"it": "Passaggio Tropicale",
+"zh-hans": "热带小径"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"pmdras_overworld": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 100,
+"Level": -1,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 0,
+"Rogue": 0,
+"Grounds": [
+"roguetown_open",
+"roguetown_explorer_base",
+"base_camp_1"
+],
+"Maps": [
+[
+0,
+1
+],
+[]
+],
+"Name": {
+"DefaultText": "Overworld",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"fire_pit": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 100,
+"Level": 17,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 2,
+"CountedFloors": 7,
+"Rogue": 1,
+"Grounds": [],
+"Maps": [
+[
+0,
+1,
+2,
+3,
+4,
+5,
+6
+]
+],
+"Name": {
+"DefaultText": "Fire Pit",
+"LocalTexts": {
+"de": "Verbleichender Pfad",
+"es": "Sendero Desvanecido ",
+"it": "Sentiero Sbiadito",
+"zh-hans": "消逝山道"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"hazy_maze": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 75,
+"Level": 15,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 2,
+"CountedFloors": 18,
+"Rogue": 1,
+"Grounds": [
+"malevolent_river_basin"
+],
+"Maps": [
+[
+0,
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8
+],
+[
+0,
+1,
+2,
+3,
+4
+],
+[
+0,
+1,
+2,
+3
+]
+],
+"Name": {
+"DefaultText": "Hazy Maze",
+"LocalTexts": {
+"de": "Verbleichender Pfad",
+"es": "Sendero Desvanecido ",
+"it": "Sentiero Sbiadito",
+"zh-hans": "消逝山道"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+}
+}
+}

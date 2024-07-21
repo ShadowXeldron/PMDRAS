@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="Slugma_Talk" xml:space="preserve">
+    <value>To be honest, I'm not the best when it comes to exploration. I'm always getting lost. This place is more my speed. It'll be champion time in no time!</value>
+    <comment>This Slugma is actually Leon from SwSh</comment>
+  </data>
+  <data name="Arena_Intro" xml:space="preserve">
+    <value>Welcome to the grand Roguetown Arena, where the strongest battlers gather!</value>
+    <comment>Start of arena text</comment>
+  </data>
+  <data name="Arena_Desc" xml:space="preserve">
+    <value>Does it ever feel like all the other Pokemon have gotten soft? Haven't you ever felt like peace is a waste of time? Is violence exactly what you crave?
+If you agree with all the above, then you've come to the right place! Here in the Roguetown Arena, we're garunteed to make your blood boil!
+We're currently running a series of tournaments to track down the best battlers to grace the world. Think you've got the stuff to win?
+
+We have four concurrent tournaments running, those being the Poke Leage for up-and-coming battlers, the Great Leage for the rising stars, the Ultra League for the pros and the Master League for the cream of the crop.
+
+Since each of the leagues are made up of progressively tougher challengers, you will need to start at the Poke League and work your way up from there.
+
+At the start of each league, you will need to challenge the one-on-ones. These consist of a match between two teams where the team who knocks out the entire opposing team is declared the winner.
+
+Once you've won enough 1v1 matches, you will gain access to the Battle Royale. This is an every 'mon for themselves slugfest where the goal is to score as many KOs as you possibly can. Finishing the Battle Royale with enough KOs will grant you the privilege of challenging that league's Arena Master. Defeating them in one-on-one combat will grant you access to the next league.
+
+If you can take down the Master League, you will gain the ability to challenge the Elite Four and Top Champions to prove yourself a true Master of Battle!
+
+Successful wins in the arena will net you some Battle Points, or BP for short. You can swap BP for items over at the Exchange Corner, or use it to relearn moves at the Move Tutor. There is also a cash prize for winning against an Arena Master.
+
+To make sure that it's a fair fight, we do have a few rules in place that you need to know. Firstly, you may not bring any items into the field of battle. After all, it would get boring if everyone brought a bag full of Reviver Seeds.
+Additionally, every battle is done at a set level. You will gain the opportunity to configure your moveset before each fight appropriate to the level of the battle.
+Finally, you will not gain any experience from battles in the arena. If you need to train, the best place to do that would be the Yendorian Road.</value>
+    <comment>Description of the arena</comment>
+  </data>
+  <data name="Mimikyu_Talk" xml:space="preserve">
+    <value>At last... my big chance stands before me. I'll be overlooked no more!</value>
+    <comment>MImikyu Mimikyu-ing</comment>
+  </data>
+  <data name="Tinkaton_Talk" xml:space="preserve">
+    <value>Hey, have you memorised the type matchups? You might be able to get away with using ineffective attacks in the dungeons, but here you'll get crushed if you aren't covering all your weaknesses! For example, I'm Fairy- and Steel-type.
+Fairy resists Fighting, Bug and Dark and is immune to dragon but is weak to Poison and Steel.
+Steel on the other hand is weak to Fire, Fighting and Ground. But in return?  provides an immunity to Poison and resists a ton of types!
+Normal, Flying, Rock, Bug, Grass, Psychic, Ice, Dragon, Fairy and Steel itself are resisted for a massive 10 resistances.
+Because Fairy resists Fighting, it cancels out the Steel type's Fighting weakness so I take neutral damage from that. Also, Steel's poison immunity means I don't need to worry about super effective Poison hits against my Fairy-type. This leaves me with just two weaknesses: Fire and Ground.
+Obviously I don't want my weaknesses to be exploited, so I taught myself Stone Edge and Ice Hammer to deal with Fire- and Ground-types respectively.
+Why am I telling you all this? 'cause I'll crush you in the arena anyway!</value>
+    <comment>Tinkaton boasting about its cracked type combo</comment>
+  </data>
+  <data name="Hitmonlee_Talk" xml:space="preserve">
+    <value>OOOOOOOH YEAH! I've waited one heck of a long time for this! Time for Team Hitmon to show all the others who's boss!
+When it comes to battle, hyper offense is my policy! After all, what good is slow paced defence when you won't be able to touch me with my long-ranged kicks? Listen up, kid! When you wanna win quick,  you better throw caution to the wind and give 'em all you've got!</value>
+    <comment>Hitmonlee gets turned on by the idea of fighting</comment>
+  </data>
+  <data name="Hitmonchan_Talk" xml:space="preserve">
+    <value>I've been practicing my punches, so nothing's gonna stand a chance against my Iron Fist! I'm sure you know all about the Same Type Attack Bonus, or STAB as we in the buisness call it. See, whenever you use a move that you share a type with, it gets a lot stronger!
+But as tempting as it is to only run STAB moves for the extra damage, you'll be kind of stumped if an opponent resists or is immune to all your attacks.
+Because of that, your best bet is to learn a couple of moves that pair well with your STAB typing. For example, not many Pokemon resist both Ice and Electric so I've got Ice Punch and Thunder Punch to cover up those weak spots.</value>
+    <comment>Htmonchan enjoys punching things</comment>
+  </data>
+  <data name="Hitmontop_Talk" xml:space="preserve">
+    <value>If I am being completely honest, this arena is a massive disappointment. We came all the way over from the Fighting Kingdom for this?
+I demand glamour and spectacle from a place like this! None of this... hay on the walls and complete randos standing about!
+The battles had better make up for it!</value>
+    <comment>Hitmontop being a karen</comment>
+  </data>
+  <data name="Minccino_Talk" xml:space="preserve">
+    <value>You can call us Team... Something!? We haven't decided on a name yet...</value>
+    <comment>Minccino. That's it, that's the joke</comment>
+  </data>
+  <data name="Swirlix_Talk" xml:space="preserve">
+    <value>*grumbling* I can't fight on an empty stomach. I wish I could go for a Whipped Dream right about now - that'd be the best.
+Unfortunately, you aren't allowed to bring items into the arena. Guess I'll have to go for a bite before we enter.</value>
+    <comment>Why is Swirlix</comment>
+  </data>
+  <data name="Tarountula_Talk" xml:space="preserve">
+    <value>All the other Pokemon here look pretty tough. I've got a bad feeling that we're in over our heads...</value>
+    <comment>Tarountula being realistic</comment>
+  </data>
+  <data name="Tandemaus_Talk" xml:space="preserve">
+    <value>We're so close to evolution! If only we'd trained more - then we'd probably have a fighting chance!
+Same goes for the others as well. Tarountula just needs a few more levels, but Swirlix and Minccino need some unique items...
+It might be worth checking the exchange counter to see if they have what's needed for them to evolve.</value>
+    <comment>Tandemaus brings up weird evolution requiremenrs</comment>
+  </data>
+  <data name="Milotic_Talk" xml:space="preserve">
+    <value>It is true that power can lead to a quick and decisive victory, but there is more to combat than raw offense.
+Defence plays an equally vital role in ensuring the path to a decisve victory. A high HP maximum will greatly enhance one's staying power, which is further aided by both physical and special defence. Ideally, you should also try to posess a method to restore your health if the situation calls for it.
+But remember: Arena battles have a strict time limit. Just sitting idly waiting for your opponent to fall will only waste it.</value>
+    <comment>Milotic justifies stall tactics</comment>
+  </data>
+  <data name="Shiny_Milotic_Talk" xml:space="preserve">
+    <value>We are twin sisters. Born and raised in the same time and place, there is no better team than the two of us.
+But alas, the arena forbids a team from containing more than two of the same species of Pokemon, so today I am here only to spectate.</value>
+    <comment>Shiny Milotic is here for no good reason</comment>
+  </data>
+  <data name="Tentacruel_Talk" xml:space="preserve">
+    <value>More fresh blood here to check out the arena, eh? Let me give you a few words of advice.
+A lot of rookies make the common mistake of neglecting stat changes. All five principal stats can be increased or decreased up to six stages, with each stage applying a multiplicative effect. Stat changes can be dispelled by a few means, such as the move haze, so you're going to need to keep an eye out for those.</value>
+    <comment>Tentacruel is fun to say</comment>
+  </data>
+  <data name="Toxapex_Talk" xml:space="preserve">
+    <value>Hahahaha! Another challenger dares to stand up against me? Each of your blows will bounce right off of my shelteresque feet while you waste away from my deadly poison! And it does not end there - the miniscule amount of damage that you inflict upon me will be completely in vain because I'll just heal it away on the spot! Aren't you afraid of my horrifying presence?</value>
+    <comment>Well, what else do you think Toxapex would talk like?</comment>
+  </data>
+  <data name="Golduck_Talk" xml:space="preserve">
+    <value>You shouldn't waste time dancing around in this battle royale! During the arena's battle royale challenge, you'll need to defeat as many foes as you can before the time runs out. You'll want to take advantage of moves that can increase your movement speed to scale the arena as fast as you can, and you're also going to want to pack one or two moves that can hit multiple targets with a single shot. But be careful: If you faint, it'll be all for naught!</value>
+    <comment>Golduck hates Fortnite</comment>
+  </data>
+  <data name="Gallade_Talk" xml:space="preserve">
+    <value>Hmph. I can't believe that they'd actually go through with constructing an arena out here in the Dark Continent.
+As a knight of the Psychic Kingdom, I was originally sent here to survey any potential threats to my homeland, but it appears that everyone who lives here is more interested in beating each other up than conspiring against the throne. Better yet, Pokemon from other kingdoms have decided to come all the way over here as well!
+I was under the assumption that this culture of battle had long since fallen to the wayside, but I guess not.
+Well, I guess it wouldn't hurt for me to practice my swordplay a little.</value>
+    <comment>Gallade is being edgy</comment>
+  </data>
+</root>

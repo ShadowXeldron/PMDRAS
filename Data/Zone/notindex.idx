@@ -1,0 +1,119 @@
+﻿{
+"Version": "0.7.25.0",
+"Object": {
+"$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[RogueEssence.Data.EntrySummary, RogueEssence]], System.Private.CoreLib",
+"tropical_path": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 75,
+"Level": 5,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 2,
+"CountedFloors": 4,
+"Rogue": 1,
+"Grounds": [],
+"Maps": [
+[
+0,
+1,
+2,
+3
+]
+],
+"Name": {
+"DefaultText": "Desert of Departure",
+"LocalTexts": {
+"de": "Tropischer Pfad",
+"es": "Paso Tropical",
+"it": "Passaggio Tropicale",
+"zh-hans": "热带小径"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"undergrowths": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 75,
+"Level": 10,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 2,
+"CountedFloors": 5,
+"Rogue": 1,
+"Grounds": [],
+"Maps": [
+[
+0,
+1,
+2,
+3,
+4
+]
+],
+"Name": {
+"DefaultText": "Undergrowths",
+"LocalTexts": {
+"de": "Verbleichender Pfad",
+"es": "Sendero Desvanecido ",
+"it": "Sentiero Sbiadito",
+"zh-hans": "消逝山道"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"cobblestone_cave": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 75,
+"Level": 10,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 2,
+"CountedFloors": 5,
+"Rogue": 1,
+"Grounds": [],
+"Maps": [
+[
+0,
+1,
+2,
+3,
+4
+]
+],
+"Name": {
+"DefaultText": "Cobblestone Cave",
+"LocalTexts": {
+"de": "Verbleichender Pfad",
+"es": "Sendero Desvanecido ",
+"it": "Sentiero Sbiadito",
+"zh-hans": "消逝山道"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+}
+}
+}

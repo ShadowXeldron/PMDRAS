@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="GabiteTalk" xml:space="preserve">
+    <value>Eh? What're you giving me that look for? Is it 'cause I'm blue? Look, I've been like this my entire life!
+Apparently there's a name for it too: I'm allegedly one of those so-called "shinies" who show up every now and then.
+Shininess is supposed to be a really uncommon trait and I've been told it's good luck to see one.
+If only said "good luck" applied to me as well - then I wouldn't be stuck all the way down here sandwiched between those perplexing dungeons!</value>
+    <comment>Shiniy Gabite being Shiny</comment>
+  </data>
+  <data name="GlimmoraTalk" xml:space="preserve">
+    <value>Hark this, outsider. Beyond this place lies another road that leads to no other road. The secret is not there but there before.
+Many another false path exists, for not all roads within the Yendorian Road lead to directly Yendor.</value>
+    <comment>Glimmora saying... things</comment>
+  </data>
+  <data name="CarbinkTalk" xml:space="preserve">
+    <value>Oh, an adventurer traveling the road to Yendor? I shell tell you of a secret that has been passed down in this area.
+The people of Yendor happened upon a high tower, constructed upon the ceiling of the road. Upon breaching into it, a mysterious object laid bare.
+They took the object from its pedestal and felt a grand quake, and upon the surface a trinity of grand towers had vanished.
+It is written that should the object be returned to its rightful place, the three towers shall return to challenge the one who brought them back to the surface.</value>
+    <comment>Carbink brings up the Inverted Tower</comment>
+  </data>
+</root>

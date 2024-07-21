@@ -1,0 +1,38 @@
+﻿{
+"Version": "0.8.2.0",
+"Object": {
+"$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[RogueEssence.Data.EntrySummary, RogueEssence]], System.Private.CoreLib",
+"weapon_iron_sword": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
+"UsageType": 0,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.2.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EquipState"
+},
+{
+"assembly": "PMDC, Version=0.8.2.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.HeldState"
+}
+],
+"Name": {
+"DefaultText": "Iron Sword",
+"LocalTexts": {
+"fr": "Veste de Combat",
+"de": "Offensivweste",
+"es": "Chaleco Asalto",
+"it": "Corpetto Assalto",
+"ko": "돌격조끼",
+"ja": "とつげきチョッキ",
+"ja-jp": "とつげきチョッキ",
+"zh-hans": "突击背心",
+"zh-hant": "突擊背心"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 1
+}
+}
+}

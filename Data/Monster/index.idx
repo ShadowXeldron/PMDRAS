@@ -1,0 +1,58 @@
+﻿{
+"Version": "0.8.2.0",
+"Object": {
+"$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[RogueEssence.Data.EntrySummary, RogueEssence]], System.Private.CoreLib",
+"gimmighoul": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Gimmighoul",
+"LocalTexts": {
+"ja": "コレクレー",
+"ko": "모으령",
+"zh-hant": "索財靈",
+"fr": "Mordudor",
+"de": "Gierspenst",
+"ja-jp": "コレクレー",
+"zh-hans": "索财灵"
+}
+},
+"Released": false,
+"Temporary": false
+},
+{
+"Name": {
+"DefaultText": "Gimmighoul",
+"LocalTexts": {
+"ja": "コレクレー",
+"ko": "모으령",
+"zh-hant": "索財靈",
+"fr": "Mordudor",
+"de": "Gierspenst",
+"ja-jp": "コレクレー",
+"zh-hans": "索财灵"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Gimmighoul",
+"LocalTexts": {
+"ja": "コレクレー",
+"ko": "모으령",
+"zh-hant": "索財靈",
+"fr": "Mordudor",
+"de": "Gierspenst",
+"ja-jp": "コレクレー",
+"zh-hans": "索财灵"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 999
+}
+}
+}

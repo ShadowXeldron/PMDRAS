@@ -1,0 +1,25 @@
+﻿{
+"Version": "0.8.2.0",
+"Object": {
+"$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[RogueEssence.Data.EntrySummary, RogueEssence]], System.Private.CoreLib",
+"oblivion_wing": {
+"Name": {
+"DefaultText": "Oblivion Wing",
+"LocalTexts": {
+"fr": "Mort-Ailes",
+"de": "Unheilsschwingen",
+"es": "Ala Mortífera",
+"it": "Ali del Fato",
+"ko": "데스윙",
+"ja": "デスウイング",
+"ja-jp": "デスウイング",
+"zh-hans": "死亡之翼",
+"zh-hant": "死亡之翼"
+}
+},
+"Released": false,
+"Comment": "Modified to more closely resembe its move animation",
+"SortOrder": 613
+}
+}
+}

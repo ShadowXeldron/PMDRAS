@@ -1,0 +1,130 @@
+﻿{
+"Version": "0.8.2.0",
+"Object": {
+"$type": "RogueEssence.Data.ZoneData, RogueEssence",
+"Name": {
+"DefaultText": "Overworld",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"NoEXP": false,
+"ExpPercent": 100,
+"Level": -1,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Persistent": false,
+"Rescues": 0,
+"Rogue": 0,
+"Segments": [
+{
+"$type": "RogueEssence.LevelGen.LayeredSegment, RogueEssence",
+"Floors": [
+{
+"$type": "RogueEssence.LevelGen.LoadGen, RogueEssence",
+"GenSteps": [
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "RogueElements.RandGenStep`1[[RogueEssence.LevelGen.MapLoadContext, RogueEssence]], RogueElements",
+"Spawns": {
+"$type": "RogueElements.LoopedRand`1[[RogueElements.GenStep`1[[RogueEssence.LevelGen.MapLoadContext, RogueEssence]], RogueElements]], RogueElements",
+"Spawner": {
+"$type": "RogueElements.PresetPicker`1[[RogueElements.GenStep`1[[RogueEssence.LevelGen.MapLoadContext, RogueEssence]], RogueElements]], RogueElements",
+"ToSpawn": {
+"$type": "RogueElements.RandGenStep`1[[RogueEssence.LevelGen.MapLoadContext, RogueEssence]], RogueElements",
+"Spawns": null
+}
+},
+"AmountSpawner": {
+"$type": "RogueElements.PresetPicker`1[[System.Int32, System.Private.CoreLib]], RogueElements",
+"ToSpawn": 0
+}
+}
+}
+},
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "RogueEssence.LevelGen.MappedRoomStep`1[[RogueEssence.LevelGen.MapLoadContext, RogueEssence]], RogueEssence",
+"MapID": "Roguetown"
+}
+}
+],
+"Comment": ""
+},
+{
+"$type": "RogueEssence.LevelGen.LoadGen, RogueEssence",
+"GenSteps": [
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "RogueElements.RandGenStep`1[[RogueEssence.LevelGen.MapLoadContext, RogueEssence]], RogueElements",
+"Spawns": {
+"$type": "RogueElements.LoopedRand`1[[RogueElements.GenStep`1[[RogueEssence.LevelGen.MapLoadContext, RogueEssence]], RogueElements]], RogueElements",
+"Spawner": {
+"$type": "RogueElements.PresetPicker`1[[RogueElements.GenStep`1[[RogueEssence.LevelGen.MapLoadContext, RogueEssence]], RogueElements]], RogueElements",
+"ToSpawn": {
+"$type": "RogueElements.RandGenStep`1[[RogueEssence.LevelGen.MapLoadContext, RogueEssence]], RogueElements",
+"Spawns": null
+}
+},
+"AmountSpawner": {
+"$type": "RogueElements.PresetPicker`1[[System.Int32, System.Private.CoreLib]], RogueElements",
+"ToSpawn": 0
+}
+}
+}
+},
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "RogueEssence.LevelGen.MappedRoomStep`1[[RogueEssence.LevelGen.MapLoadContext, RogueEssence]], RogueEssence",
+"MapID": "Roguetown"
+}
+}
+],
+"Comment": ""
+}
+],
+"ZoneSteps": [],
+"IsRelevant": false,
+"Comment": ""
+},
+{
+"$type": "RogueEssence.LevelGen.LayeredSegment, RogueEssence",
+"Floors": [],
+"ZoneSteps": [],
+"IsRelevant": false,
+"Comment": ""
+}
+],
+"GroundMaps": [
+"roguetown_open",
+"roguetown_explorer_base",
+"base_camp_1"
+]
+}
+}

@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="Krokorok_Talk" xml:space="preserve">
+    <value>This place kinda stinks. The bartender's got some serious skill, but it's Roguetown so there's nothing good available to order.
+If you want the real good stuff here, you're providing the ingredients.</value>
+    <comment>Krokorok is fun to say</comment>
+  </data>
+  <data name="Pawmot_Talk" xml:space="preserve">
+    <value>I've been brought over from the Electric Kingdom to help with building the arena. Let me tell you, it's hard work!
+After a long day of helping out there, I'm always down for a refreshing glass of Thunderade! It's made by mixing Yellow Gummis with Wacan Berries.</value>
+    <comment>Pawmit brings up the arena</comment>
+  </data>
+  <data name="Oranguru_Talk" xml:space="preserve">
+    <value>Buisness here hasn't been very good as of late. Not just in this establishment, mind you. I'm talking about the entire town.
+Believe it or not, Roguetown was once prosperous. It all started when gold was dug up not too far from here, in the Desert of Departure. Massive amounts of the stuff, too. Everyone was coming all the way over to see if they could strike it rich and gold was excavated from all over the surrounding area.
+Not long after, there was no gold left and Roguetown was swiftly abandoned. The few of us still here are essentially clinging to a dream we know has passed.
+Still, I hope that the discovery of the Yendorian Road will bring some life back into this place. I'm too old to go exploring Mystery Dungeons now, but if I were younger I'd be right on it!</value>
+    <comment>Oranguru reminisces about the good old days</comment>
+  </data>
+  <data name="Pangoro_Talk" xml:space="preserve">
+    <value>Most of us in the Dark Continent are real tough guys. If you wanna get respect 'round these parts, you've gotta be strong and brave!
+But... even I haven't got the guts for Putrid Shake. Just a single sip is foul enough to make it feel like all your power is fading away...</value>
+    <comment>Pangoro being edgy</comment>
+  </data>
+  <data name="Slurpuff_Talk" xml:space="preserve">
+    <value>I am something of a Juice Connoisseur myself, so I'll hapilly give away a couple of pointers. Any juice tips you want to ask about?
+(Slurpuff should give a list of options)</value>
+    <comment>Slurpuff is Anime Cillan</comment>
+  </data>
+  <data name="Slurpuff_Basics" xml:space="preserve">
+    <value>Rations, Berries, Gummis and Apricorns can be blended into juice. You can use up to two ingredients and there will usually be enough for a single Pokemon to drink. The drink you get out of it will actually have an influence</value>
+    <comment>Explaining the basics of berry blending</comment>
+  </data>
+  <data name="Slurpuff_Cancelling" xml:space="preserve">
+    <value>Something you need to be aware of when blending is that certain combimations will net you a plain shake that doesn't taste of anything. Nothing will happen if you drink a Plain Shake, so it'll be a waste of ingredients.
+Firstly, Plain Apricorns will have no effect on the drink if you mix them with something and will produce a plain shake if they're used alone.
+Chillan Berries also have a similar effect (or lack thereof) to Plain Apricorns on the drink, so you should save both of those for the dungeons.
+Also, certain ingredient combos will cancel each other out. For example, mixing a curative berry with a type changing one will produce a plain shake if the curative berry would cure the status effect, such as a Cheri Berry mixed with a Wacan Berry. 
+There's supposedly one berry combo that doesn't have this effect and even produces a unique drink, but which one?</value>
+    <comment>Explaining how certain combinations cancel each other out</comment>
+  </data>
+  <data name="Slurpuff_RancidShake" xml:space="preserve">
+    <value>Oh... Rancid Shake... urk, I feel sick just thinking about it... I had one once and it tasted truly disgusting. How would I describe such a vicious concoction? Well, imagine the sharp taste of death... but way worse. It was so gross that I passed out and forgot what I put in there! I think it was a purple thing...
+Also, Rancid Shake will reset all your stat boosts. I guess it might have some niche aplications if you want to respec.</value>
+    <comment>Explains how to reset boosts</comment>
+  </data>
+  <data name="Slurpuff_LegendaryDrink" xml:space="preserve">
+    <value>I've never seen it myself, but there is supposed to be an ultra rare Apricorn that all Pokemon love. It might be a complete waste to blend it.
+But... what happens if you blended two? I'm sure such a drink would have unbelievably powerful effects.</value>
+    <comment>Explain the myth of Shiny Soda (made of two Glittery Apricorns)</comment>
+  </data>
+  <data name="Slurpuff_PowerPunch" xml:space="preserve">
+    <value>You would expect combining two of the same pinch stat berries - Leichi, Salac, etc. - to provide a big stat boost, but believe it or not they seemingly don't provide one at all! A similar thing occurs if you use two Engima Berries as well. But the thing is, it tastes nothing like a plain shake.
+Maybe a Pokemon that has reached the peak of its growth would appreciate it more.</value>
+    <comment>Explain how Hyper Training works in this game</comment>
+  </data>
+</root>

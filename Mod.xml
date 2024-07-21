@@ -1,0 +1,11 @@
+<Header>
+  <Name>Rogue Adventure Squad: The Deepest Depths</Name>
+  <Author>ShadowXeldron</Author>
+  <Description>Stupid hack themed around descending to the bottom of the world</Description>
+  <Namespace>pmdras</Namespace>
+  <UUID>24F5F588-4623-4DF3-B42A-F3FCAB1A8E47</UUID>
+  <Version>0.0</Version>
+  <GameVersion>0.0</GameVersion>
+  <ModType>Quest</ModType>
+  <Relationships />
+</Header>
