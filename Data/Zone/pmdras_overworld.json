@@ -1,12 +1,12 @@
 ﻿{
-"Version": "0.8.2.0",
+"Version": "0.8.5.0",
 "Object": {
 "$type": "RogueEssence.Data.ZoneData, RogueEssence",
 "Name": {
 "DefaultText": "Overworld",
 "LocalTexts": {}
 },
-"Released": false,
+"Released": true,
 "Comment": "",
 "NoEXP": false,
 "ExpPercent": 100,
@@ -124,7 +124,16 @@
 "GroundMaps": [
 "roguetown_open",
 "roguetown_explorer_base",
-"base_camp_1"
+"base_camp_1",
+"base_camp_2_pmdras",
+"base_camp_3",
+"yendor_open",
+"yendor_knights_square",
+"arena_lobby",
+"poison_bar",
+"godhome",
+"bottom_of_the_world",
+"hall_of_origin"
 ]
 }
 }
