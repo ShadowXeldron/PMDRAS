@@ -62,4 +62,8 @@
     <value>To find the world of blessings, bring the plates of yore and return them to their pedestals.</value>
     <comment>Talk to the sign 'cause the face ain't listenin'</comment>
   </data>
+  <data name="Intro" xml:space="preserve">
+    <value>You feel a mysterious presence, but it makes you feel at ease...</value>
+    <comment>Arceus is here</comment>
+  </data>
 </root>

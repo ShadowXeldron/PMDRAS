@@ -6,7 +6,3 @@ A work-in-progress campaign mod for [Pokémon Mystery Dungeon: Origins](https://
 - 5 or 6 incomplete dungeons
 - Some temporary field maps
 - Ys music. Lots of Ys music.
-
-## Intended features
-
-- BP-based battle facility featuring team battles

@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.8.2.0",
+"Version": "0.8.5.0",
 "Object": {
 "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[RogueEssence.Data.EntrySummary, RogueEssence]], System.Private.CoreLib",
 "undergrowths": {
@@ -303,7 +303,16 @@
 "Grounds": [
 "roguetown_open",
 "roguetown_explorer_base",
-"base_camp_1"
+"base_camp_1",
+"base_camp_2_pmdras",
+"base_camp_3",
+"yendor_open",
+"yendor_knights_square",
+"arena_lobby",
+"poison_bar",
+"godhome",
+"bottom_of_the_world",
+"hall_of_origin"
 ],
 "Maps": [
 [
@@ -316,7 +325,7 @@
 "DefaultText": "Overworld",
 "LocalTexts": {}
 },
-"Released": false,
+"Released": true,
 "Comment": "",
 "SortOrder": 0
 },
@@ -412,6 +421,35 @@
 "it": "Sentiero Sbiadito",
 "zh-hans": "消逝山道"
 }
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"lost_city": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 100,
+"Level": 50,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 2,
+"CountedFloors": 1,
+"Rogue": 1,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Lost City of Yendor",
+"LocalTexts": {}
 },
 "Released": true,
 "Comment": "",

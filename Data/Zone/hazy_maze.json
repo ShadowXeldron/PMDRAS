@@ -5304,12 +5304,12 @@
 ]
 },
 "StartAmount": {
-"Min": 55,
-"Max": 60
+"Min": 59,
+"Max": 66
 },
 "AddAmount": {
-"Min": 4,
-"Max": 8
+"Min": 7,
+"Max": 13
 },
 "ModStates": [
 {
@@ -5331,7 +5331,7 @@
 "Spawns": [
 {
 "Spawn": {
-"ID": "berry_leppa",
+"ID": "berry_pecha",
 "Cursed": false,
 "HiddenValue": "",
 "Amount": 0,
@@ -5340,7 +5340,7 @@
 "Rate": 9,
 "Range": {
 "Min": 0,
-"Max": 7
+"Max": 9
 }
 },
 {
@@ -5354,7 +5354,7 @@
 "Rate": 12,
 "Range": {
 "Min": 0,
-"Max": 7
+"Max": 9
 }
 },
 {
@@ -5373,7 +5373,7 @@
 },
 {
 "Spawn": {
-"ID": "berry_lum",
+"ID": "berry_kebia",
 "Cursed": false,
 "HiddenValue": "",
 "Amount": 0,
@@ -5382,7 +5382,7 @@
 "Rate": 10,
 "Range": {
 "Min": 0,
-"Max": 7
+"Max": 9
 }
 },
 {
@@ -5396,7 +5396,7 @@
 "Rate": 5,
 "Range": {
 "Min": 0,
-"Max": 7
+"Max": 9
 }
 }
 ],
@@ -5714,7 +5714,7 @@
 },
 {
 "Spawn": {
-"ID": "apricorn_brown",
+"ID": "apricorn_black",
 "Cursed": false,
 "HiddenValue": "",
 "Amount": 0,
@@ -5728,7 +5728,7 @@
 },
 {
 "Spawn": {
-"ID": "apricorn_white",
+"ID": "apricorn_plain",
 "Cursed": false,
 "HiddenValue": "",
 "Amount": 0,
@@ -5748,10 +5748,10 @@
 "Amount": 1,
 "Price": 0
 },
-"Rate": 10,
+"Rate": 7,
 "Range": {
-"Min": 2,
-"Max": 7
+"Min": 3,
+"Max": 4
 }
 }
 ],
@@ -5782,48 +5782,14 @@
 "Spawn": {
 "Spawn": {
 "BaseForm": {
-"Species": "geodude",
+"Species": "spinarak",
 "Form": 0,
 "Skin": "",
 "Gender": -1
 },
 "Level": {
-"Min": 10,
-"Max": 18
-},
-"SpecifiedSkills": [
-"defense_curl",
-"rollout"
-],
-"Intrinsic": "sturdy",
-"Tactic": "wander_dumb",
-"SpawnConditions": [],
-"SpawnFeatures": [
-{
-"$type": "PMDC.LevelGen.MobSpawnWeak, PMDC"
-}
-]
-},
-"Role": 0
-},
-"Rate": 10,
-"Range": {
-"Min": 0,
-"Max": 7
-}
-},
-{
-"Spawn": {
-"Spawn": {
-"BaseForm": {
-"Species": "timburr",
-"Form": -1,
-"Skin": "",
-"Gender": -1
-},
-"Level": {
-"Min": 8,
-"Max": 17
+"Min": 12,
+"Max": 21
 },
 "SpecifiedSkills": [],
 "Intrinsic": "",
@@ -5840,37 +5806,29 @@
 "Rate": 10,
 "Range": {
 "Min": 0,
-"Max": 7
+"Max": 9
 }
 },
 {
 "Spawn": {
 "Spawn": {
 "BaseForm": {
-"Species": "zubat",
-"Form": 0,
+"Species": "skorupi",
+"Form": -1,
 "Skin": "",
 "Gender": -1
 },
 "Level": {
-"Min": 9,
-"Max": 15
+"Min": 16,
+"Max": 21
 },
-"SpecifiedSkills": [
-"absorb",
-"supersonic"
-],
+"SpecifiedSkills": [],
 "Intrinsic": "",
 "Tactic": "wander_dumb",
 "SpawnConditions": [],
 "SpawnFeatures": [
 {
 "$type": "PMDC.LevelGen.MobSpawnWeak, PMDC"
-},
-{
-"$type": "PMDC.LevelGen.MobSpawnMovesOff, PMDC",
-"StartAt": 2,
-"Remove": false
 }
 ]
 },
@@ -5878,24 +5836,26 @@
 },
 "Rate": 10,
 "Range": {
-"Min": 0,
-"Max": 4
+"Min": 3,
+"Max": 7
 }
 },
 {
 "Spawn": {
 "Spawn": {
 "BaseForm": {
-"Species": "zubat",
-"Form": -1,
+"Species": "koffing",
+"Form": 0,
 "Skin": "",
 "Gender": -1
 },
 "Level": {
-"Min": 15,
-"Max": 16
+"Min": 19,
+"Max": 21
 },
-"SpecifiedSkills": [],
+"SpecifiedSkills": [
+"poison_gas"
+],
 "Intrinsic": "",
 "Tactic": "wander_dumb",
 "SpawnConditions": [],
@@ -5910,25 +5870,56 @@
 "Rate": 10,
 "Range": {
 "Min": 4,
-"Max": 7
+"Max": 9
 }
 },
 {
 "Spawn": {
 "Spawn": {
 "BaseForm": {
-"Species": "wynaut",
+"Species": "zubat",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 15,
+"Max": 21
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "wander_dumb",
+"SpawnConditions": [],
+"SpawnFeatures": [
+{
+"$type": "PMDC.LevelGen.MobSpawnWeak, PMDC"
+}
+]
+},
+"Role": 0
+},
+"Rate": 10,
+"Range": {
+"Min": 0,
+"Max": 9
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "stunky",
 "Form": -1,
 "Skin": "",
 "Gender": -1
 },
 "Level": {
-"Min": 10,
-"Max": 16
+"Min": 18,
+"Max": 21
 },
 "SpecifiedSkills": [],
 "Intrinsic": "",
-"Tactic": "avoid_trouble",
+"Tactic": "wander_dumb",
 "SpawnConditions": [],
 "SpawnFeatures": [
 {
@@ -5947,86 +5938,15 @@
 ],
 "TeamSizes": [
 {
-"Spawn": 1,
+"Spawn": 4,
 "Rate": 12,
 "Range": {
 "Min": 0,
-"Max": 7
+"Max": 9
 }
 }
 ],
-"SpecificSpawns": [
-{
-"Spawn": {
-"Explorer": false,
-"Spawns": [
-{
-"BaseForm": {
-"Species": "starly",
-"Form": 0,
-"Skin": "",
-"Gender": -1
-},
-"Level": {
-"Min": 7,
-"Max": 7
-},
-"SpecifiedSkills": [
-"tackle",
-"quick_attack"
-],
-"Intrinsic": "",
-"Tactic": "wander_dumb",
-"SpawnConditions": [],
-"SpawnFeatures": [
-{
-"$type": "PMDC.LevelGen.MobSpawnWeak, PMDC"
-},
-{
-"$type": "PMDC.LevelGen.MobSpawnMovesOff, PMDC",
-"StartAt": 2,
-"Remove": false
-}
-]
-},
-{
-"BaseForm": {
-"Species": "starly",
-"Form": 0,
-"Skin": "",
-"Gender": -1
-},
-"Level": {
-"Min": 7,
-"Max": 7
-},
-"SpecifiedSkills": [
-"tackle",
-"quick_attack"
-],
-"Intrinsic": "",
-"Tactic": "wander_dumb",
-"SpawnConditions": [],
-"SpawnFeatures": [
-{
-"$type": "PMDC.LevelGen.MobSpawnWeak, PMDC"
-},
-{
-"$type": "PMDC.LevelGen.MobSpawnMovesOff, PMDC",
-"StartAt": 2,
-"Remove": false
-}
-]
-}
-]
-},
-"Rate": 20,
-"Range": {
-"Min": 4,
-"Max": 7
-}
-}
-]
+"SpecificSpawns": []
 },
 {
 "$type": "RogueEssence.LevelGen.SpreadStepZoneStep, RogueEssence",
@@ -6530,7 +6450,7 @@
 "Rate": 10,
 "Range": {
 "Min": 0,
-"Max": 6
+"Max": 7
 }
 }
 ],
@@ -8506,150 +8426,23 @@
 ]
 },
 "Value": {
-"$type": "PMDC.LevelGen.KeyDetourStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], PMDC",
-"LockedTile": "sealed_door",
-"KeyItem": "key",
-"Treasures": {
-"SpecificSpawns": [
-{
-"IsMoney": false,
-"Cursed": false,
-"Value": "berry_pecha",
-"HiddenValue": "",
-"Amount": 0,
-"Price": 0,
-"TileLoc": {
-"X": 0,
-"Y": 0
-}
-},
-{
-"IsMoney": false,
-"Cursed": false,
-"Value": "gummi_purple",
-"HiddenValue": "",
-"Amount": 0,
-"Price": 0,
-"TileLoc": {
-"X": 0,
-"Y": 0
-}
-},
-{
-"IsMoney": true,
-"Cursed": false,
-"Value": "",
-"HiddenValue": "",
-"Amount": 88,
-"Price": 0,
-"TileLoc": {
-"X": 0,
-"Y": 0
-}
-},
-{
-"IsMoney": false,
-"Cursed": false,
-"Value": "tm_venoshock",
-"HiddenValue": "",
-"Amount": 0,
-"Price": 0,
-"TileLoc": {
-"X": 0,
-"Y": 0
-}
-}
-],
-"RandomSpawns": [],
-"SpawnAmount": 0
-},
-"TileTreasures": {
-"SpecificSpawns": [
-{
-"TileLoc": {
-"X": 0,
-"Y": 0
-},
-"ID": "stairs_secret_down",
-"Revealed": false,
-"Owner": 0,
-"TileStates": [
-{
-"$type": "PMDC.Dungeon.DestState, PMDC",
-"Dest": {
-"Segment": 2,
-"ID": 0
-},
-"Relative": false,
-"PreserveMusic": false
-}
+"$type": "PMDC.LevelGen.DefaultMapStatusStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], PMDC",
+"SetterID": "default_weather",
+"DefaultMapStatus": [
+"fog"
 ]
-}
-],
-"RandomSpawns": [],
-"SpawnAmount": 0
-},
-"GuardTypes": {
-"SpecificSpawns": [
-{
-"BaseForm": {
-"Species": "ariados",
-"Form": 0,
-"Skin": "normal",
-"Gender": -1
-},
-"Level": {
-"Min": 22,
-"Max": 23
-},
-"SpecifiedSkills": [
-"x_scissor",
-"focus_energy",
-"night_slash",
-"swords_dance"
-],
-"Intrinsic": "sniper",
-"Tactic": "wander_normal_itemless",
-"SpawnConditions": [],
-"SpawnFeatures": [
-{
-"$type": "RogueEssence.LevelGen.MobSpawnStatus, RogueEssence",
-"Statuses": [
-{
-"Spawn": {
-"ID": "sleep",
-"StatusStates": []
-},
-"Rate": 10
-}
-]
-}
-]
-}
-],
-"RandomSpawns": [],
-"SpawnAmount": 0
-},
-"HallLength": {
-"Min": 2,
-"Max": 3
-},
-"GenericRooms": []
 }
 },
 {
 "Key": {
 "str": [
 0,
-5
+1
 ]
 },
 "Value": {
-"$type": "PMDC.LevelGen.DefaultMapStatusStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], PMDC",
-"SetterID": "default_weather",
-"DefaultMapStatus": [
-"fog"
-]
+"$type": "RogueEssence.LevelGen.UnbreakableBorderStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
+"Thickness": 1
 }
 },
 {
@@ -8926,145 +8719,6 @@
 "Max": 9
 }
 }
-}
-},
-{
-"Key": {
-"str": [
-5,
-5
-]
-},
-"Value": {
-"$type": "PMDC.LevelGen.KeyDetourStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], PMDC",
-"LockedTile": "sealed_door",
-"KeyItem": "key",
-"Treasures": {
-"SpecificSpawns": [
-{
-"IsMoney": false,
-"Cursed": false,
-"Value": "berry_pecha",
-"HiddenValue": "",
-"Amount": 0,
-"Price": 0,
-"TileLoc": {
-"X": 0,
-"Y": 0
-}
-},
-{
-"IsMoney": false,
-"Cursed": false,
-"Value": "gummi_purple",
-"HiddenValue": "",
-"Amount": 0,
-"Price": 0,
-"TileLoc": {
-"X": 0,
-"Y": 0
-}
-},
-{
-"IsMoney": true,
-"Cursed": false,
-"Value": "",
-"HiddenValue": "",
-"Amount": 88,
-"Price": 0,
-"TileLoc": {
-"X": 0,
-"Y": 0
-}
-},
-{
-"IsMoney": false,
-"Cursed": false,
-"Value": "tm_venoshock",
-"HiddenValue": "",
-"Amount": 0,
-"Price": 0,
-"TileLoc": {
-"X": 0,
-"Y": 0
-}
-}
-],
-"RandomSpawns": [],
-"SpawnAmount": 0
-},
-"TileTreasures": {
-"SpecificSpawns": [
-{
-"TileLoc": {
-"X": 0,
-"Y": 0
-},
-"ID": "stairs_secret_down",
-"Revealed": false,
-"Owner": 0,
-"TileStates": [
-{
-"$type": "PMDC.Dungeon.DestState, PMDC",
-"Dest": {
-"Segment": 2,
-"ID": 0
-},
-"Relative": false,
-"PreserveMusic": false
-}
-]
-}
-],
-"RandomSpawns": [],
-"SpawnAmount": 0
-},
-"GuardTypes": {
-"SpecificSpawns": [
-{
-"BaseForm": {
-"Species": "ariados",
-"Form": 0,
-"Skin": "normal",
-"Gender": -1
-},
-"Level": {
-"Min": 22,
-"Max": 23
-},
-"SpecifiedSkills": [
-"x_scissor",
-"focus_energy",
-"night_slash",
-"swords_dance"
-],
-"Intrinsic": "sniper",
-"Tactic": "wander_normal_itemless",
-"SpawnConditions": [],
-"SpawnFeatures": [
-{
-"$type": "RogueEssence.LevelGen.MobSpawnStatus, RogueEssence",
-"Statuses": [
-{
-"Spawn": {
-"ID": "sleep",
-"StatusStates": []
-},
-"Rate": 10
-}
-]
-}
-]
-}
-],
-"RandomSpawns": [],
-"SpawnAmount": 0
-},
-"HallLength": {
-"Min": 2,
-"Max": 3
-},
-"GenericRooms": []
 }
 },
 {
@@ -9674,48 +9328,14 @@
 "Spawn": {
 "Spawn": {
 "BaseForm": {
-"Species": "geodude",
+"Species": "spinarak",
 "Form": 0,
 "Skin": "",
 "Gender": -1
 },
 "Level": {
-"Min": 10,
-"Max": 18
-},
-"SpecifiedSkills": [
-"defense_curl",
-"rollout"
-],
-"Intrinsic": "sturdy",
-"Tactic": "wander_dumb",
-"SpawnConditions": [],
-"SpawnFeatures": [
-{
-"$type": "PMDC.LevelGen.MobSpawnWeak, PMDC"
-}
-]
-},
-"Role": 0
-},
-"Rate": 10,
-"Range": {
-"Min": 0,
-"Max": 7
-}
-},
-{
-"Spawn": {
-"Spawn": {
-"BaseForm": {
-"Species": "timburr",
-"Form": -1,
-"Skin": "",
-"Gender": -1
-},
-"Level": {
-"Min": 8,
-"Max": 17
+"Min": 18,
+"Max": 23
 },
 "SpecifiedSkills": [],
 "Intrinsic": "",
@@ -9732,25 +9352,86 @@
 "Rate": 10,
 "Range": {
 "Min": 0,
-"Max": 7
+"Max": 4
 }
 },
 {
 "Spawn": {
 "Spawn": {
 "BaseForm": {
-"Species": "zubat",
+"Species": "gastly",
 "Form": 0,
 "Skin": "",
 "Gender": -1
 },
 "Level": {
-"Min": 9,
-"Max": 15
+"Min": 20,
+"Max": 23
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "wander_dumb",
+"SpawnConditions": [],
+"SpawnFeatures": [
+{
+"$type": "PMDC.LevelGen.MobSpawnWeak, PMDC"
+}
+]
+},
+"Role": 0
+},
+"Rate": 10,
+"Range": {
+"Min": 0,
+"Max": 4
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "skorupi",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 21,
+"Max": 25
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "wander_dumb",
+"SpawnConditions": [],
+"SpawnFeatures": [
+{
+"$type": "PMDC.LevelGen.MobSpawnWeak, PMDC"
+}
+]
+},
+"Role": 0
+},
+"Rate": 10,
+"Range": {
+"Min": 0,
+"Max": 4
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "koffing",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 19,
+"Max": 21
 },
 "SpecifiedSkills": [
-"absorb",
-"supersonic"
+"poison_gas"
 ],
 "Intrinsic": "",
 "Tactic": "wander_dumb",
@@ -9758,11 +9439,6 @@
 "SpawnFeatures": [
 {
 "$type": "PMDC.LevelGen.MobSpawnWeak, PMDC"
-},
-{
-"$type": "PMDC.LevelGen.MobSpawnMovesOff, PMDC",
-"StartAt": 2,
-"Remove": false
 }
 ]
 },
@@ -9779,13 +9455,13 @@
 "Spawn": {
 "BaseForm": {
 "Species": "zubat",
-"Form": -1,
+"Form": 0,
 "Skin": "",
 "Gender": -1
 },
 "Level": {
-"Min": 15,
-"Max": 16
+"Min": 19,
+"Max": 23
 },
 "SpecifiedSkills": [],
 "Intrinsic": "",
@@ -9801,26 +9477,26 @@
 },
 "Rate": 10,
 "Range": {
-"Min": 4,
-"Max": 7
+"Min": 0,
+"Max": 4
 }
 },
 {
 "Spawn": {
 "Spawn": {
 "BaseForm": {
-"Species": "wynaut",
-"Form": -1,
+"Species": "stunky",
+"Form": 0,
 "Skin": "",
 "Gender": -1
 },
 "Level": {
-"Min": 10,
-"Max": 16
+"Min": 20,
+"Max": 22
 },
 "SpecifiedSkills": [],
 "Intrinsic": "",
-"Tactic": "avoid_trouble",
+"Tactic": "wander_dumb",
 "SpawnConditions": [],
 "SpawnFeatures": [
 {
@@ -9832,93 +9508,22 @@
 },
 "Rate": 10,
 "Range": {
-"Min": 2,
-"Max": 5
+"Min": 0,
+"Max": 4
 }
 }
 ],
 "TeamSizes": [
 {
-"Spawn": 1,
+"Spawn": 4,
 "Rate": 12,
 "Range": {
 "Min": 0,
-"Max": 7
+"Max": 9
 }
 }
 ],
-"SpecificSpawns": [
-{
-"Spawn": {
-"Explorer": false,
-"Spawns": [
-{
-"BaseForm": {
-"Species": "starly",
-"Form": 0,
-"Skin": "",
-"Gender": -1
-},
-"Level": {
-"Min": 7,
-"Max": 7
-},
-"SpecifiedSkills": [
-"tackle",
-"quick_attack"
-],
-"Intrinsic": "",
-"Tactic": "wander_dumb",
-"SpawnConditions": [],
-"SpawnFeatures": [
-{
-"$type": "PMDC.LevelGen.MobSpawnWeak, PMDC"
-},
-{
-"$type": "PMDC.LevelGen.MobSpawnMovesOff, PMDC",
-"StartAt": 2,
-"Remove": false
-}
-]
-},
-{
-"BaseForm": {
-"Species": "starly",
-"Form": 0,
-"Skin": "",
-"Gender": -1
-},
-"Level": {
-"Min": 7,
-"Max": 7
-},
-"SpecifiedSkills": [
-"tackle",
-"quick_attack"
-],
-"Intrinsic": "",
-"Tactic": "wander_dumb",
-"SpawnConditions": [],
-"SpawnFeatures": [
-{
-"$type": "PMDC.LevelGen.MobSpawnWeak, PMDC"
-},
-{
-"$type": "PMDC.LevelGen.MobSpawnMovesOff, PMDC",
-"StartAt": 2,
-"Remove": false
-}
-]
-}
-]
-},
-"Rate": 20,
-"Range": {
-"Min": 4,
-"Max": 7
-}
-}
-]
+"SpecificSpawns": []
 },
 {
 "$type": "RogueEssence.LevelGen.SpreadStepZoneStep, RogueEssence",
@@ -13225,48 +12830,14 @@
 "Spawn": {
 "Spawn": {
 "BaseForm": {
-"Species": "geodude",
+"Species": "spinarak",
 "Form": 0,
 "Skin": "",
 "Gender": -1
 },
 "Level": {
-"Min": 10,
-"Max": 18
-},
-"SpecifiedSkills": [
-"defense_curl",
-"rollout"
-],
-"Intrinsic": "sturdy",
-"Tactic": "wander_dumb",
-"SpawnConditions": [],
-"SpawnFeatures": [
-{
-"$type": "PMDC.LevelGen.MobSpawnWeak, PMDC"
-}
-]
-},
-"Role": 0
-},
-"Rate": 10,
-"Range": {
-"Min": 0,
-"Max": 7
-}
-},
-{
-"Spawn": {
-"Spawn": {
-"BaseForm": {
-"Species": "timburr",
-"Form": -1,
-"Skin": "",
-"Gender": -1
-},
-"Level": {
-"Min": 8,
-"Max": 17
+"Min": 18,
+"Max": 23
 },
 "SpecifiedSkills": [],
 "Intrinsic": "",
@@ -13283,25 +12854,86 @@
 "Rate": 10,
 "Range": {
 "Min": 0,
-"Max": 7
+"Max": 4
 }
 },
 {
 "Spawn": {
 "Spawn": {
 "BaseForm": {
-"Species": "zubat",
+"Species": "gastly",
 "Form": 0,
 "Skin": "",
 "Gender": -1
 },
 "Level": {
-"Min": 9,
-"Max": 15
+"Min": 20,
+"Max": 23
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "wander_dumb",
+"SpawnConditions": [],
+"SpawnFeatures": [
+{
+"$type": "PMDC.LevelGen.MobSpawnWeak, PMDC"
+}
+]
+},
+"Role": 0
+},
+"Rate": 10,
+"Range": {
+"Min": 0,
+"Max": 4
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "skorupi",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 21,
+"Max": 25
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "wander_dumb",
+"SpawnConditions": [],
+"SpawnFeatures": [
+{
+"$type": "PMDC.LevelGen.MobSpawnWeak, PMDC"
+}
+]
+},
+"Role": 0
+},
+"Rate": 10,
+"Range": {
+"Min": 0,
+"Max": 4
+}
+},
+{
+"Spawn": {
+"Spawn": {
+"BaseForm": {
+"Species": "koffing",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 19,
+"Max": 21
 },
 "SpecifiedSkills": [
-"absorb",
-"supersonic"
+"poison_gas"
 ],
 "Intrinsic": "",
 "Tactic": "wander_dumb",
@@ -13309,11 +12941,6 @@
 "SpawnFeatures": [
 {
 "$type": "PMDC.LevelGen.MobSpawnWeak, PMDC"
-},
-{
-"$type": "PMDC.LevelGen.MobSpawnMovesOff, PMDC",
-"StartAt": 2,
-"Remove": false
 }
 ]
 },
@@ -13330,13 +12957,13 @@
 "Spawn": {
 "BaseForm": {
 "Species": "zubat",
-"Form": -1,
+"Form": 0,
 "Skin": "",
 "Gender": -1
 },
 "Level": {
-"Min": 15,
-"Max": 16
+"Min": 19,
+"Max": 23
 },
 "SpecifiedSkills": [],
 "Intrinsic": "",
@@ -13351,125 +12978,45 @@
 "Role": 0
 },
 "Rate": 10,
-"Range": {
-"Min": 4,
-"Max": 7
-}
-},
-{
-"Spawn": {
-"Spawn": {
-"BaseForm": {
-"Species": "wynaut",
-"Form": -1,
-"Skin": "",
-"Gender": -1
-},
-"Level": {
-"Min": 10,
-"Max": 16
-},
-"SpecifiedSkills": [],
-"Intrinsic": "",
-"Tactic": "avoid_trouble",
-"SpawnConditions": [],
-"SpawnFeatures": [
-{
-"$type": "PMDC.LevelGen.MobSpawnWeak, PMDC"
-}
-]
-},
-"Role": 0
-},
-"Rate": 10,
-"Range": {
-"Min": 2,
-"Max": 5
-}
-}
-],
-"TeamSizes": [
-{
-"Spawn": 1,
-"Rate": 12,
 "Range": {
 "Min": 0,
-"Max": 7
+"Max": 4
 }
-}
-],
-"SpecificSpawns": [
+},
 {
 "Spawn": {
-"Explorer": false,
-"Spawns": [
-{
+"Spawn": {
 "BaseForm": {
-"Species": "starly",
+"Species": "stunky",
 "Form": 0,
 "Skin": "",
 "Gender": -1
 },
 "Level": {
-"Min": 7,
-"Max": 7
+"Min": 20,
+"Max": 22
 },
-"SpecifiedSkills": [
-"tackle",
-"quick_attack"
-],
+"SpecifiedSkills": [],
 "Intrinsic": "",
 "Tactic": "wander_dumb",
 "SpawnConditions": [],
 "SpawnFeatures": [
 {
 "$type": "PMDC.LevelGen.MobSpawnWeak, PMDC"
-},
-{
-"$type": "PMDC.LevelGen.MobSpawnMovesOff, PMDC",
-"StartAt": 2,
-"Remove": false
 }
 ]
 },
-{
-"BaseForm": {
-"Species": "starly",
-"Form": 0,
-"Skin": "",
-"Gender": -1
+"Role": 0
 },
-"Level": {
-"Min": 7,
-"Max": 7
-},
-"SpecifiedSkills": [
-"tackle",
-"quick_attack"
-],
-"Intrinsic": "",
-"Tactic": "wander_dumb",
-"SpawnConditions": [],
-"SpawnFeatures": [
-{
-"$type": "PMDC.LevelGen.MobSpawnWeak, PMDC"
-},
-{
-"$type": "PMDC.LevelGen.MobSpawnMovesOff, PMDC",
-"StartAt": 2,
-"Remove": false
-}
-]
-}
-]
-},
-"Rate": 20,
+"Rate": 10,
 "Range": {
-"Min": 4,
-"Max": 7
+"Min": 0,
+"Max": 4
 }
 }
-]
+],
+"TeamSizes": [],
+"SpecificSpawns": []
 },
 {
 "$type": "RogueEssence.LevelGen.SpreadStepZoneStep, RogueEssence",

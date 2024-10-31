@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.8.2.0",
+"Version": "0.8.5.0",
 "Object": {
 "$type": "RogueEssence.Dungeon.Map, RogueEssence",
 "Name": {
@@ -127,7 +127,8 @@
 "RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
-"SelfStatusRange": 4
+"SelfStatusRange": 4,
+"AbandonRangeOnHit": true
 },
 {
 "$type": "PMDC.Dungeon.FollowLeaderPlan, PMDC",
@@ -136,7 +137,8 @@
 "RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
-"SelfStatusRange": 0
+"SelfStatusRange": 0,
+"AbandonRangeOnHit": true
 },
 {
 "$type": "PMDC.Dungeon.ExplorePlan, PMDC",
@@ -145,7 +147,8 @@
 "RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
-"SelfStatusRange": 0
+"SelfStatusRange": 0,
+"AbandonRangeOnHit": true
 },
 {
 "$type": "PMDC.Dungeon.WaitPlan, PMDC",
@@ -154,7 +157,8 @@
 "RestrictMobilityPassable": false,
 "AttackRange": 0,
 "StatusRange": 0,
-"SelfStatusRange": 0
+"SelfStatusRange": 0,
+"AbandonRangeOnHit": true
 }
 ]
 },
